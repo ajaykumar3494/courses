@@ -18,7 +18,7 @@ import com.springrest.springrest.entities.Course;
 import com.springrest.springrest.services.CourseService;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "http://reactappbucket12s3.s3-website-us-east-1.amazonaws.com")
 public class MyController {
 	
 	@Autowired
